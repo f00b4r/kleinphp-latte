@@ -1,0 +1,19 @@
+{
+  "name": "f3l1x/kleinlatte",
+  "description": "Klein.php router with Latte template engine.",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Milan Felix Sulc",
+      "homepage": "http://jfx.cz"
+    }
+  ],
+  "require": {
+    "php": ">= 5.5",
+    "klein/klein": "~2.1.0",
+    "latte/latte": "~2.2.0"
+  },
+  "config": {
+    "vendor-dir": "app/vendor"
+  }
+}

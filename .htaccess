@@ -1,0 +1,18 @@
+# Why rewrite URLs? Read this: http://en.wikipedia.org/wiki/Rewrite_engine
+
+# Apache (.htaccess or httpd.conf)
+# Make sure AllowOverride is on for the directory, or put the rewrite rules in httpd.conf
+# http://httpd.apache.org/docs/2.0/mod/core.html#allowoverride
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule . /index.php [L]
+
+# Nginx (nginx.conf)
+#try_files $uri /index.php;
+
+# More reading:
+# - http://httpd.apache.org/docs/2.0/mod/mod_rewrite.html
+# - http://wiki.nginx.org/HttpRewriteModule
+# - http://wiki.nginx.org/Pitfalls
+
+# Note: Thanks to James (http://github.com/jamesvl) for his improvements and fixes (http://gist.github.com/910325)
