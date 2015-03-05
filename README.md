@@ -10,7 +10,7 @@ Klein.php with Latte template engine.
 1) Install via composer.
 
 ```sh
-composer create-project f3l1x/kleinlatte:dev-master
+composer create-project f3l1x/kleinlatte:~0.1
 ```
 
 2) Create app/cache folder.
