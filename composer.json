@@ -2,6 +2,7 @@
   "name": "f3l1x/kleinlatte",
   "description": "Klein.php router with Latte template engine.",
   "type": "project",
+  "license": ["BSD-3-Clause"],
   "authors": [
     {
       "name": "Milan Felix Sulc",
