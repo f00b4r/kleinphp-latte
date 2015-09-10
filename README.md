@@ -1,6 +1,6 @@
 # Klein.php-Latte
 
-[![Downloads this Month](https://img.shields.io/packagist/dm/f3l1x/kleinlatte.svg?style=flat)](https://packagist.org/packages/f3l1x/kleinlatte)
+[![Downloads total](https://img.shields.io/packagist/dt/f3l1x/kleinlatte.svg?style=flat)](https://packagist.org/packages/f3l1x/kleinlatte)
 [![Latest stable](https://img.shields.io/packagist/v/f3l1x/kleinlatte.svg?style=flat)](https://packagist.org/packages/f3l1x/kleinlatte)
 
 Klein.php with Latte template engine.
